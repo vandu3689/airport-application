@@ -1,0 +1,315 @@
+[
+	{
+	"Origin": "Pune",
+	"Destination": "Delhi",
+	"DepartureDateTime": "2015-02-05T07:05:00",
+	"ArrivalDateTime": "2015-02-05T08:20:00",
+	"TravelOptions" : [
+		{
+			"TravelPrice" : "Rs.14000",
+			"Carrier": [
+				
+				{
+					"Id": 11,
+					"Code": "AI-202",
+					"Depart": "10 AM",
+					"Arrive" : "12.00 PM",
+					"Station": "PNQ > DEL"
+				},
+				{
+					"Id": 12,
+					"Code": "AI-202",
+					"Depart": "8 PM",
+					"Arrive" : "11.00 PM",
+					"Station": "DEL > PNQ"
+					
+				}
+			]
+		},
+		
+		{
+			"TravelPrice" : "Rs.15000",
+			"Carrier": [
+				
+				{
+					"Id": 11,
+					"Code": "AI-202",
+					"Depart": "10 AM",
+					"Arrive" : "12.00 PM",
+					"Station": "PNQ > DEL"
+				},
+				{
+					"Id": 12,
+					"Code": "AI-202",
+					"Depart": "8 PM",
+					"Arrive" : "11.00 PM",
+					"Station": "DEL > PNQ"
+					
+				}
+			]	
+		},
+		{
+			"TravelPrice" : "Rs.16000",
+			"Carrier": [
+				
+				{
+					"Id": 11,
+					"Code": "AI-202",
+					"Depart": "10 AM",
+					"Arrive" : "12.00 PM",
+					"Station": "PNQ > DEL"
+				},
+				{
+					"Id": 12,
+					"Code": "AI-202",
+					"Depart": "8 PM",
+					"Arrive" : "11.00 PM",
+					"Station": "DEL > PNQ"
+					
+				}
+			]
+		
+		}
+	
+		
+	
+	]
+	
+	},
+	
+	{
+	"Origin": "Chennai",
+	"Destination": "Bangalore",
+	"DepartureDateTime": "2015-02-05T07:05:00",
+	"ArrivalDateTime": "2015-02-05T08:20:00",
+	"TravelOptions" : [
+		{
+			"TravelPrice" : "Rs.8000",
+			"Carrier": [
+				
+				{
+					"Id": 11,
+					"Code": "AI-202",
+					"Depart": "10 AM",
+					"Arrive" : "12.00 PM",
+					"Station": "CHN > BLR"
+				},
+				{
+					"Id": 12,
+					"Code": "AI-202",
+					"Depart": "8 PM",
+					"Arrive" : "11.00 PM",
+					"Station": "CHN > BLR"
+					
+				}
+			]
+		},
+		
+		{
+			"TravelPrice" : "Rs.9000",
+			"Carrier": [
+				
+				{
+					"Id": 11,
+					"Code": "AI-202",
+					"Depart": "10 AM",
+					"Arrive" : "12.00 PM",
+					"Station": "CHN > BLR"
+				},
+				{
+					"Id": 12,
+					"Code": "AI-202",
+					"Depart": "8 PM",
+					"Arrive" : "11.00 PM",
+					"Station": "CHN > BLR"
+					
+				}
+			]	
+		},
+		{
+			"TravelPrice" : "Rs.11000",
+			"Carrier": [
+				
+				{
+					"Id": 11,
+					"Code": "AI-202",
+					"Depart": "10 AM",
+					"Arrive" : "12.00 PM",
+					"Station": "CHN > BLR"
+				},
+				{
+					"Id": 12,
+					"Code": "AI-202",
+					"Depart": "8 PM",
+					"Arrive" : "11.00 PM",
+					"Station": "CHN > BLR"
+					
+				}
+			]
+		
+		}
+	
+		
+	
+	]
+	
+	
+	},
+	
+	
+	{
+	"Origin": "Noida",
+	"Destination": "Mangalore",
+	"DepartureDateTime": "2015-02-05T07:05:00",
+	"ArrivalDateTime": "2015-02-05T08:20:00",
+	"TravelOptions" : [
+		{
+			"TravelPrice" : "Rs.15000",
+			"Carrier": [
+				
+				{
+					"Id": 11,
+					"Code": "AI-202",
+					"Depart": "10 AM",
+					"Arrive" : "12.00 PM",
+					"Station": "NDA > MGL"
+				},
+				{
+					"Id": 12,
+					"Code": "AI-202",
+					"Depart": "8 PM",
+					"Arrive" : "11.00 PM",
+					"Station": "NDA > MGL"
+					
+				}
+			]
+		},
+		
+		{
+			"TravelPrice" : "Rs.24000",
+			"Carrier": [
+				
+				{
+					"Id": 11,
+					"Code": "AI-202",
+					"Depart": "10 AM",
+					"Arrive" : "12.00 PM",
+					"Station": "NDA > MGL"
+				},
+				{
+					"Id": 12,
+					"Code": "AI-202",
+					"Depart": "8 PM",
+					"Arrive" : "11.00 PM",
+					"Station": "NDA > MGL"
+					
+				}
+			]	
+		},
+		{
+			"TravelPrice" : "Rs.20000",
+			"Carrier": [
+				
+				{
+					"Id": 11,
+					"Code": "AI-202",
+					"Depart": "10 AM",
+					"Arrive" : "12.00 PM",
+					"Station": "NDA > MGL"
+				},
+				{
+					"Id": 12,
+					"Code": "AI-202",
+					"Depart": "8 PM",
+					"Arrive" : "11.00 PM",
+					"Station": "NDA > MGL"
+					
+				}
+			]
+		
+		}
+	
+	]
+	
+	
+	},
+	
+	
+	{
+	"Origin": "Kerela",
+	"Destination": "Coimbatore",
+	"DepartureDateTime": "2015-02-05T07:05:00",
+	"ArrivalDateTime": "2015-02-05T08:20:00",
+	"TravelOptions" : [
+		{
+			"TravelPrice" : "Rs.10000",
+			"Carrier": [
+				
+				{
+					"Id": 11,
+					"Code": "AI-202",
+					"Depart": "10 AM",
+					"Arrive" : "12.00 PM",
+					"Station": "KER > CBE"
+				},
+				{
+					"Id": 12,
+					"Code": "AI-202",
+					"Depart": "8 PM",
+					"Arrive" : "11.00 PM",
+					"Station": "KER > CBE"
+					
+				}
+			]
+		},
+		
+		{
+			"TravelPrice" : "Rs.11000",
+			"Carrier": [
+				
+				{
+					"Id": 11,
+					"Code": "AI-202",
+					"Depart": "10 AM",
+					"Arrive" : "12.00 PM",
+					"Station": "KER > CBE"
+				},
+				{
+					"Id": 12,
+					"Code": "AI-202",
+					"Depart": "8 PM",
+					"Arrive" : "11.00 PM",
+					"Station": "KER > CBE"
+					
+				}
+			]	
+		},
+		{
+			"TravelPrice" : "Rs.12000",
+			"Carrier": [
+				
+				{
+					"Id": 11,
+					"Code": "AI-202",
+					"Depart": "10 AM",
+					"Arrive" : "12.00 PM",
+					"Station": "KER > CBE"
+				},
+				{
+					"Id": 12,
+					"Code": "AI-202",
+					"Depart": "8 PM",
+					"Arrive" : "11.00 PM",
+					"Station": "KER > CBE"
+					
+				}
+			]
+		
+		}
+	
+		
+	
+	]
+	}
+
+]

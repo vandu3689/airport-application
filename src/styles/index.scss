@@ -1,0 +1,174 @@
+@import '~js-datepicker/src/datepicker';
+
+$body-color: #44332F;
+$header-bg-color : #383838;
+$placeholder-color : #333;
+$btn-color : #FC4F33;
+
+body {
+  color: $body-color;
+}
+body {
+	font-family: 'Montserrat', sans-serif;
+	background : $body-color;
+	padding: 0;
+    margin: 0;
+}
+ul {
+	padding : 0;
+	margin : 0;
+	li {
+		list-style : none;
+	}
+}
+.btn {
+	padding: 10px 20px;
+    background: #FC4F33;
+    border: 0;
+    box-shadow: none;
+    color: #fff;
+    border-radius: 7px;
+    text-transform: uppercase;
+}
+header {
+	background: $header-bg-color;    padding: 10px 0;
+}
+.section {
+	position: relative;
+	height: 100vh;
+}
+
+.container-fluid {
+    @media only screen and (min-width : 992px) {
+		width: 80%;
+	}
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.header {
+	@media only screen and (min-width : 992px) {
+		display: flex;
+    }
+	justify-content: space-between;
+	border-bottom: 1px solid #d3d3d3;
+	margin-top: 40px;
+}
+.carrierWrapper {
+	@media only screen and (min-width : 992px) {
+		display: flex;
+		justify-content: space-between;
+		align-items :center;
+	}
+	line-height: 1.5rem;
+}
+.right-data {
+	@media only screen and (min-width : 992px) {
+		display: flex;
+		flex-direction: column;
+    }
+	font-size: 12px;
+    line-height: 2em;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: $placeholder-color;
+  opacity: 1; /* Firefox */
+}
+.right-section {
+	@media only screen and (min-width : 992px) {
+		width: 70%;
+    }
+	background: #fff;
+    padding-bottom: 20px
+}	
+.form-wrapper .wrapper {
+	@media only screen and (min-width : 992px) {
+	display: flex;
+    justify-content: space-evenly;
+	}
+}
+.left-section {
+	margin-top : 40px;
+}
+h1 {text-align : center;}
+.form-btn {
+	
+	text-align : center;
+}
+input, select {
+	color: #000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: none;
+    border: 0;width:100%;
+	box-sizing:border-box;
+}
+.submit-btn {
+	background: $btn-color;
+    border: 0;
+	color : #fff;
+    padding: 8px 40px;
+}
+.form-group {
+	margin-bottom : 10px
+}	
+
+.animal {
+  max-width: 650px;
+  padding: 20px;
+  margin: 30px auto;
+  background-color: #fff;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.animal h4 {
+  margin: 0 0 6px 0;
+}
+
+.pet-photo {
+  float: left;
+  width: 40%;
+  margin-right: 15px;
+}
+
+.pet-name {
+  font-size: 2rem;
+  font-weight: normal;
+  margin: 0 0 1rem 0;
+}
+
+.species {
+  font-size: 0.9rem;
+  color: #888;
+  vertical-align: middle;
+}
+
+.foods-list {
+  margin: 0;
+  padding: 0;
+  font-size: 0.85rem;
+  line-height: 1.5;
+}
+.station--code {
+	font-size : 13px;
+}
+.carrier--details {
+	padding: 0 12px 10px;
+    margin-top: 30px;
+	border: 1px solid #bbb1b1;
+	border-radius: 5px;
+	
+	&:nth-child(odd) {
+			background: #eee;
+
+	}
+}
+.footer {
+  font-size: 0.7rem;
+  color: #888;
+  text-align: center;
+  margin: 0;
+}
+

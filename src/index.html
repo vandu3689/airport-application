@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>webpack starterkit</title>
+</head>
+<body>
+  <div id="booking" class="section">
+	<div class="section-center">
+	
+		<header>
+			<div class="container-fluid">
+				<a href=""><img src="images/logo.png"></a>
+			</div>
+		</header>
+		
+		<!--Body Section -->
+		<section class="form-wrapper container-fluid">
+		
+		<div class="wrapper">
+		<div class="left-section">
+		
+		<form id="my-form">
+		<div class="form-group">
+			<input class="form-control" id="origin" type="text" placeholder="Enter Origin">
+		</div>
+		<div class="form-group">
+			<input class="form-control" id="destination" type="text" placeholder="Enter Destination">
+		</div>
+		<div class="row">
+			<div class="col-md-4">
+				<div class="form-group">
+		
+					<input class="form-control" id="depDate" type="text" autocomplete="off" placeholder="Departure Date">
+		
+					<!--<select class="form-control" id="depDate">
+					<option>Departure Date</option>
+					<option>Business class</option>
+					<option>First class</option>
+					</select>-->
+					<span class="select-arrow"></span>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="form-group" id="passengers">
+					<select class="form-control">
+					<option disabled="disabled" selected>Passengers</option>
+					<option>2</option>
+					<option>3</option>
+					</select>
+					</div>
+			</div>
+			
+		</div>
+		<div class="form-btn">
+		<button class="submit-btn" id="js-search">Search</button>
+		</div>
+		
+		</form>
+		</div>
+		
+		<div id="right-section" class="right-section">
+			<!--ajax result -->
+			<div id="ajax-content" class="container-fluid"></div>
+		</div>
+		</div>
+		
+		</section>
+</div>
+</div>
+</body>
+</html>
